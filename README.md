@@ -38,3 +38,26 @@ Start the server by running:
 ```sh
 node server.js
 ```
+
+### Building and Running with Docker
+
+To build and run the application using Docker, follow these steps:
+
+1. Build the Docker image:
+
+   ```sh
+   docker build -t network-tab-demo .
+   ```
+
+2. Run the Docker container:
+
+   ```sh
+   docker run -p 3000:3000 network-tab-demo
+   ```
+
+   This will start the container and map port 3000 of the container to port 3000 on your local machine.
+
+3. Access the application in your browser:
+
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
